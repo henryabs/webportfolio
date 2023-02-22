@@ -1,0 +1,65 @@
+body{
+    font-family: "Poppins";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.brand-logo{
+    position: relative;
+}
+
+.brand-logo-img{
+    opacity: 0.5;
+    width: 180px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #F8C838;
+    
+}
+
+.auth-btn{
+    border-radius: 50px;
+}
+.auth-btn:hover{
+    background-color: #F8C838;
+    color: black;
+    font-weight:bolder;
+}
+
+.black{
+    color: #000;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.bg-yellow{
+    background-color: #FFC107;
+}
+
+.tell-us{
+    background-color: black;color: white;display: inline-block; padding: 10px; transform: rotate(-7deg); border-left: 10px solid white; border-right: 10px solid white;
+}
+
+.heading{
+    border-bottom: 1px solid black;
+}
+
+.top-link{
+    display: inline; position: fixed; bottom: 5px; right: 5px;height: 3rem;line-height: 3rem;
+}
+
+.gallery-item{
+    min-height: 678px;
+}
