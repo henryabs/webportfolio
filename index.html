@@ -52,10 +52,8 @@
     <!-- Nav End -->
 
 
-  
+    <!-- Home Start -->
      <div id="#" class="container-fluid p-3 text-center bg-yellow">
-
-        
         <div class="d-md-flex justify-content-around">
             <div class="p-3 bg-yellow ">
                 
@@ -78,13 +76,12 @@
             <div class="p-3">
                 <img src="./images/kent.png" alt="" class="img-fluid d-none d-md-block">
             </div>
-        
         </div>
-     
     </div>
-    
+    <!-- Home End -->
 
-     <div id="aboutme" class="container-fluid p-3 text-center bg-dark">
+    <!-- About Me Start -->
+    <div id="aboutme" class="container-fluid p-3 text-center bg-dark">
         <h2 class="p-5 text-center black heading text-light"><span>ABOUT ME</span></h2>
   
             <div class="p-3">
@@ -115,17 +112,10 @@
 
         </div> 
     </div>
+    <!-- About Me End -->
 
-
-
-
-
-
-
-
-
-     
-     <div id="gallery" class="container p-3 text-center">
+    <!-- Gallery Start -->
+    <div id="gallery" class="container p-3 text-center">
         <h2 class="p-5 text-center black heading"><span>GALLERY</span></h2>
         <div class="d-md-flex justify-content-around">
             <div class="p-3 bg-dark">
@@ -154,42 +144,32 @@
             </div>
         </div>
     </div>
+    <!-- Gallery End -->
 
-
-     <div id="project" class="container-fluid p-3 text-center">
+    <!-- My Project Start -->
+    <div id="project" class="container-fluid p-3 text-center">
         <h2 class="p-5 text-center black heading"><span>MY PROJECTS</span></h2>
-
         <div class="d-md-flex justify-content-around">
-
-
             <div class="p-3">
                 <img class="img-fluid" src="./images/project1.png">
-                <h5 class="p-3">HTML</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. </p>
+                <h5 class="p-3">Project 1</h5>
+                <p>This is just a placeholder to occupy within my portfolio page.</p>
             </div>
-
             <div class="p-3">
                 <img class="img-fluid" src="./images/project2.png">
-                <h5 class="p-3">Bootstrap</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h5 class="p-3">Project 2</h5>
+                <p>This is just a placeholder to occupy within my portfolio page.</p>
             </div>
-
             <div class="p-3">
                 <img class="img-fluid" src="./images/project3.png">
-                <h5 class="p-3">Node JS Server</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. </p>
+                <h5 class="p-3">Project 3</h5>
+                <p>This is just a placeholder to occupy within my portfolio page.</p>
             </div>
-   
-
         </div>
-
     </div>
+    <!-- My Project End -->
 
-
-
+    <!-- Contact Us Start -->
      <div id="contactus" class="container-fluid p-5 bg-yellow">
         <h2 class="p-5 text-center black heading"><span>CONTACT US</span></h2>
         <div class="row p-0">
@@ -210,7 +190,7 @@
                             <textarea class="form-control" id="message" rows="6"></textarea>
                         </div>
                     </form>
-                    <button type="button" class="btn btn-dark bg-black" data-toggle="modal" data-target="#myModal">Send Email</button>
+                    <button type="button" class="btn btn-dark bg-black">Send Email</button>
                 </div>
 
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-dark p-5 text-center">
@@ -234,14 +214,18 @@
                 </div>
         </div>
      </div>
+     <!-- Contact Us End -->
 
-
-
+    <!-- Footer Satart -->
     <div class="bg-dark text-light text-center p-4">Copy Right &copy; 2023 All Rights Reserved </div>
+    <!-- Footer End -->
+
+
     <div class="bg-black text-light top-link">
-        <a href="#" class="p-4 text-light" style="text-decoration: none;">TOP</a>
+        <a href="#" class="p-4 text-light">TOP</a>
     </div>
 
+    <!-- Disclaimer Modal Start -->
     <div class="modal fade" id="myModal">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -260,19 +244,21 @@
             </div>
         </div>
     </div>
-
+    <!-- Disclaimer Modal End -->
 
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- Custom Script -->
     <script>
+        // Script to load Disclaimer modal on page load
         $(window).on('load',function(){
-    var delayMs = 200; // delay in milliseconds
-    
-    setTimeout(function(){
-        $('#myModal').modal('show');
-    }, delayMs);
-});
+            var delayMs = 200; // delay in milliseconds
+            
+            setTimeout(function(){
+                $('#myModal').modal('show');
+            }, delayMs);
+        });
     </script>
 </body>
 </html>

@@ -6,15 +6,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.brand-logo{
-    position: relative;
-}
-
-.brand-logo-img{
-    opacity: 0.5;
-    width: 180px;
-}
-
 .navbar{
     position: sticky;
     top: 0;
@@ -25,10 +16,6 @@ html {
 .nav-item:hover {
     border-bottom: 1px solid #F8C838;
     
-}
-
-.auth-btn{
-    border-radius: 50px;
 }
 
 
@@ -57,7 +44,4 @@ html {
      
 }
 
-.gallery-item{
-    min-height: 678px;
-}
 
