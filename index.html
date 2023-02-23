@@ -18,6 +18,7 @@
 <body>
 
     <!-- Nav Start -->
+
     <nav class="navbar navbar-expand-lg navbar-dark p-4">
         <a class="navbar-brand" href="#">
             <img src="./images/web-logo.png" alt="" width="160px">
@@ -38,103 +39,157 @@
                     <a class="nav-link" href="#gallery">GALLERY</a>
                 </li>
                 <li class="nav-item active p-2 mt-3">
+                    <a class="nav-link" href="#project">MY PROJECT</a>
+                </li>
+                <li class="nav-item active p-2 mt-3">
                     <a class="nav-link" href="#contactus">CONTACT US</a>
                 </li>
                 
             </ul>
         </div>
     </nav>
+
     <!-- Nav End -->
 
 
-     <!-- Home Start-->
-     <div id="#" class="container-fluid p-5 bg-yellow">
+  
+     <div id="#" class="container-fluid p-3 text-center bg-yellow">
+
         
-        <div class="row p-0">
-                <div class="offset-2"></div>
-                <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 text-dark p-5">
-                   <div class="vh-100 d-flex justify-content-center align-items-center bg-yellow">
-
-                        <h1>“Make it work, make it right, make it fast.”
-                                                                – Kent Beck</h1>
-                    </div>
-                    
-                </div>
-
-                <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 text-dark p-5 text-center">
-                    <img src="./images/kent.png" alt="" class="img-fluid">
-                </div>
-        </div>
-     </div>
-     <!-- Home End -->
-
-    <!-- About Me Start-->
-    <div id="aboutme" class="container-fluid p-5 bg-dark text-light">
-        <h2 class="p-5 text-center heading"><span>ABOUT ME</span></h2>
-        <div class="row p-0 align-items-center p-5">
-                <div class="offset-2"></div>
-                <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 text-dark p-5 text-center">
-                    <img src="./images/me.jpg" class="img-fluid rounded rounded-circle mx-auto" alt="">
-                </div>
-
-
-                <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 text-dark p-5 bg-warning text-center">
-                    <h1>Hello, I am Henry Abayan who lives in Pasig City. Currently, I am working as a technical support in one of the largest insurance companies in the country. Right now I'm planning a career shift as a web developer by joining Zuitt.</h1>
-                </div>
+        <div class="d-md-flex justify-content-around">
+            <div class="p-3 bg-yellow ">
                 
+                <div class="row h-100">
+                    <div class="col-sm-12 h-100 d-table">
+                        <div class="card card-block d-table-cell align-middle">
+                            <h1 class="p-5">
+                                    “Make it work, make it right, make it fast.”
+                            </h1>
+                            <h1 class="p-2">
+                                
+                                – Kent Beck
+                           
+                        </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="p-3">
+                <img src="./images/kent.png" alt="" class="img-fluid d-none d-md-block">
+            </div>
+        
         </div>
-     </div>
-     <!-- About Me End -->
      
+    </div>
+    
 
-
-     <div id="gallery" class="container-fluid p-5">
-        <h2 class="p-5 text-center heading"><span>GALLERY</span></h2>
-
-
-        <div class="row p-0 gallery-item">
-                <div class="offset-1"></div>
-                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-dark p-5 bg-dark">
-                    
+     <div id="aboutme" class="container-fluid p-3 text-center bg-dark">
+        <h2 class="p-5 text-center black heading text-light"><span>ABOUT ME</span></h2>
+  
+            <div class="p-3">
+                <img class="img-fluid rounded rounded-circle" src="./images/me.jpg" width="500px">
+                <div class="">
+                    <h3 class="p-5 text-light">Hi, I am Henry Abayan who lives in Pasig City. Currently, I'm working as a technical support at one of the largest insurance company in the country. Right now I'm planning a career shift as a web developer by joining Zuitt.</h3>
                 </div>
+            </div>
 
-                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-dark p-5 text-center bg-yellow">
-                    
+            <div class="p-3">
+                <h1 class="text-light">Skills</h1>
+                <div class="p-5">
+                    <div class="flex-row">
+                        <img width="150" src="images/logo-mongodb.png" class="rounded-circle bg-yellow"/>
+                        <img width="150" src="images/logo-nodejs.png" class="rounded-circle bg-yellow"/>
+                        <img width="150" src="images/logo-expressjs.png" class="rounded-circle bg-yellow"/>
+                        <img width="150" src="images/logo-react.png" class="rounded-circle bg-yellow"/>
+                        <img width="150" src="images/logo-heroku.png" class="rounded-circle bg-yellow"/>
+                    </div>
+                    <div class="">
+                        <img width="150" src="images/logo-git.png" class="rounded-circle bg-yellow"/>
+                        <img width="150" src="images/logo-sublime-text-3.png" class="rounded-circle bg-yellow"/>
+                        <img width="150" src="images/logo-postman.png" class="rounded-circle bg-yellow"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png" class="rounded-circle bg-yellow"/>
+                    </div>
                 </div>
+            </div>
+
+        </div> 
+    </div>
+
+
+
+
+
+
+
+
+
+     
+     <div id="gallery" class="container p-3 text-center">
+        <h2 class="p-5 text-center black heading"><span>GALLERY</span></h2>
+        <div class="d-md-flex justify-content-around">
+            <div class="p-3 bg-dark">
+                <img class="img-fluid p-5" src="./images/gallery1.jpg">
+            </div>
+
+            <div class="p-3 bg-yellow">
+                <img class="img-fluid p-5" src="./images/gallery2.jpg">
+            </div>
+        </div>
+        <div class="d-md-flex justify-content-around">
+            <div class="p-3 bg-yellow">
+                <img class="img-fluid p-5" src="./images/gallery3.jpg">
+            </div>
+            <div class="p-3 bg-dark">
+                <img class="img-fluid p-5" src="./images/gallery4.jpg">
+            </div>
+        </div>
+        <div class="d-md-flex justify-content-around">
+            <div class="p-3 bg-dark">
+                <img class="img-fluid p-5" src="./images/gallery5.jpg">
+            </div>
+
+            <div class="p-3 bg-yellow">
+                <img class="img-fluid p-5" src="./images/gallery6.jpg">
+            </div>
+        </div>
+    </div>
+
+
+     <div id="project" class="container-fluid p-3 text-center">
+        <h2 class="p-5 text-center black heading"><span>MY PROJECTS</span></h2>
+
+        <div class="d-md-flex justify-content-around">
+
+
+            <div class="p-3">
+                <img class="img-fluid" src="./images/project1.png">
+                <h5 class="p-3">HTML</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+
+            <div class="p-3">
+                <img class="img-fluid" src="./images/project2.png">
+                <h5 class="p-3">Bootstrap</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="p-3">
+                <img class="img-fluid" src="./images/project3.png">
+                <h5 class="p-3">Node JS Server</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+   
+
         </div>
 
-
-        <div class="row p-0 gallery-item">
-                <div class="offset-1"></div>
-                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-dark p-5 bg-yellow">
-                </div>
-
-                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-dark p-5 text-center bg-dark">
-                    
-                </div>
-        </div>
-
-
-        <div class="row p-0 gallery-item">
-                <div class="offset-1"></div>
-                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-dark p-5 bg-dark">
-                    
-                </div>
-
-                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 text-dark p-5 text-center bg-yellow">
-                    
-                </div>
-        </div>
+    </div>
 
 
 
-     </div>
-     <!-- Contact Us End -->
-
-
-
-
-     <!-- Contact Us Start-->
      <div id="contactus" class="container-fluid p-5 bg-yellow">
         <h2 class="p-5 text-center black heading"><span>CONTACT US</span></h2>
         <div class="row p-0">
@@ -179,12 +234,12 @@
                 </div>
         </div>
      </div>
-     <!-- Contact Us End -->
+
 
 
     <div class="bg-dark text-light text-center p-4">Copy Right &copy; 2023 All Rights Reserved </div>
     <div class="bg-black text-light top-link">
-        <a href="#" class="p-4 text-light">TOP</a>
+        <a href="#" class="p-4 text-light" style="text-decoration: none;">TOP</a>
     </div>
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

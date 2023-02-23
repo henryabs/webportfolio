@@ -30,11 +30,7 @@ html {
 .auth-btn{
     border-radius: 50px;
 }
-.auth-btn:hover{
-    background-color: #F8C838;
-    color: black;
-    font-weight:bolder;
-}
+
 
 .black{
     color: #000;
@@ -57,9 +53,11 @@ html {
 }
 
 .top-link{
-    display: inline; position: fixed; bottom: 5px; right: 5px;height: 3rem;line-height: 3rem;
+     position: fixed; bottom: 5px; right: 5px;height: 3rem;line-height: 3rem;
+     
 }
 
 .gallery-item{
     min-height: 678px;
 }
+
